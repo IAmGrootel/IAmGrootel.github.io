@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Alex van Grootel
+email: alex.van.grootel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+  Data scientist and tech lead at Citrine Informatics
+twitter_username: IAmGrootel
+github_username: IAmGrootel
+minimal_mistakes_skin: contrast #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+search: False
 
 # Build settings
 markdown: kramdown
@@ -58,34 +56,39 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "IAmGrootel"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "machine learning, NLP, \n sustainability, innovation, policy"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
+    - label: "alex-van-grootel"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/alex-van-grootel/"
+    - label: "@IAmGrootel"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+      url: "https://twitter.com/IAmGrootel"
+    - label: "IAmGrootel"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/IAmGrootel"
+    - label: Resume
+      icon: "fa fa-file"
+      url: /assets/pdf/AlexvanGrootel_Resume.pdf
+    - label: "San Francisco, USA"
+      icon: "fa fa-map-marker"
 
 footer:
   links:
-    - label: "Twitter"
+    - label: ""
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/alex-van-grootel/"
+    - label: ""
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+      url: "https://twitter.com/IAmGrootel"
+    - label: ""
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/IAmGrootel"
+    - label: ""
+      icon: "fa fa-file"
+      url: /assets/pdf/AlexvanGrootel_Resume.pdf
 
 defaults:
   # _posts
