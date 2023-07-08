@@ -1,5 +1,8 @@
 main:
   - title: "About"
     url: /index
-  - title: "Selected Work"
+  - title: "Work experience"
     url: /selected_work
+  - title: "Writings"
+    url: /writings
+  
