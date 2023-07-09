@@ -3,6 +3,6 @@ permalink: /index
 title: "About me"
 ---
 
-here is stuffs
+Number 1 priority: Micaela Harms.
 
 
