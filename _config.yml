@@ -16,9 +16,9 @@
 title: Alex van Grootel
 email: alex.van.grootel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Data scientist and tech lead at Citrine Informatics
-twitter_username: IAmGrootel
-github_username: IAmGrootel
+  Product management at Microsoft
+# twitter_username: IAmGrootel
+# github_username: IAmGrootel
 minimal_mistakes_skin: contrast #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: False
 
@@ -56,39 +56,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "IAmGrootel"
+  name   : "Alex van Grootel"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "machine learning, NLP, \n sustainability, innovation, policy"
+  bio    : "AI, product"
+  location: San Francisco, USA
+  # email: alex.van.grootel _at_ gmail _dot_ com
+  linkedin: alex-van-grootel
   links:
-    - label: "alex-van-grootel"
-      icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/alex-van-grootel/"
-    - label: "@IAmGrootel"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/IAmGrootel"
-    - label: "IAmGrootel"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/IAmGrootel"
-    - label: Resume
-      icon: "fa fa-file"
-      url: /assets/pdf/AlexvanGrootel_Resume.pdf
-    - label: "San Francisco, USA"
-      icon: "fa fa-map-marker"
+    - label: "alex.van.grootel _at_ gmail.com"
+      icon: "fas fa-envelope"
+      url: "mailto:alex.van.grootel"
 
 footer:
-  links:
-    - label: ""
-      icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/alex-van-grootel/"
-    - label: ""
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/IAmGrootel"
-    - label: ""
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/IAmGrootel"
-    - label: ""
-      icon: "fa fa-file"
-      url: /assets/pdf/AlexvanGrootel_Resume.pdf
+  # links:
+  #   - label: ""
+  #     icon: "fab fa-linkedin-in"
+  #     url: "https://www.linkedin.com/in/alex-van-grootel/"
+  #   # - label: ""
+  #   #   icon: "fab fa-fw fa-twitter-square"
+  #   #   url: "https://twitter.com/IAmGrootel"
+  #   # - label: ""
+  #   #   icon: "fab fa-fw fa-github"
+  #   #   url: "https://github.com/IAmGrootel"
+  #   - label: ""
+  #     icon: "fa fa-file"
+  #     url: /assets/pdf/AlexvanGrootel_Resume.pdf
 
 defaults:
   # _posts
