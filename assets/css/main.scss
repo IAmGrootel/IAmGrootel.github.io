@@ -1,0 +1,24 @@
+@import "minimal-mistakes";
+@import "custom-font";
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+
+html {
+    font-family: "Raleway", "Segoe UI", Arial, sans-serif; /* Change to Segoe UI */
+  font-size: 14px; // change to whatever
+
+  @include breakpoint($medium) {
+    font-size: 18px; // change to whatever
+  }
+
+  @include breakpoint($large) {
+    font-size: 20px; // change to whatever
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 22px; // change to whatever
+  }
+}

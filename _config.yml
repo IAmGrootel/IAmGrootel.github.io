@@ -108,3 +108,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+sass:
+  additional_import_paths: ["assets/fonts/"]
