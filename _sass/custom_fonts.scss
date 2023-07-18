@@ -1,12 +1,11 @@
-// @font-face {
-//     font-family: "Raleway";
-//     src: url("../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
-//   }
-
-  @font-face {
+@font-face {
     font-family: "Raleway";
-    src: url("../assets/fonts/Lugrasimo/Lugrasimo-Regular.ttf") format("truetype");
+    // src: url("../../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+    src: url("../../assets/fonts/Proxima/ProximaNova.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
-  
+
+strong, b {
+    font-family: "Raleway ExtraBold", sans-serif; 
+  }

@@ -1,13 +1,14 @@
 @import "minimal-mistakes";
 @import "custom-font";
 
+
 body {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
 
 html {
-    font-family: "Raleway", "Segoe UI", Arial, sans-serif; /* Change to Segoe UI */
+  font-family: "Raleway", "Segoe UI", Arial, sans-serif; /* Change to Segoe UI */
   font-size: 14px; // change to whatever
 
   @include breakpoint($medium) {
@@ -21,4 +22,9 @@ html {
   @include breakpoint($x-large) {
     font-size: 22px; // change to whatever
   }
+}
+
+strong,
+b {
+  font-weight: 5000; /* Change the font weight to the desired value for bold text */
 }

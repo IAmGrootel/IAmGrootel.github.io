@@ -1,17 +1,19 @@
 ---
 permalink: /index
-# title: "About me"
+title: ""
 ---
 
-Hello! I'm Alex. 
+# Hello! I'm Alex. 
 
-I am experienced in **applying AI to solve real problems**. I created **NLP** pipelines on materials data when I was at MIT, used **active learning** to design better materials at Citrine Informatics, and applied **reinforcement learning** to solve industrial control problems at Microsoft Bonsai. 
+I am an experienced **data scientist** and **AI product manager** .
 
-I am currently working as a **Product Manager** at **Microsoft Fabric** - Microsoft's new data platform. There I do Data Copilot stuff, using Large Language Models. 
+I created **NLP** pipelines on materials data when I was at MIT, used **active learning** to design better materials at Citrine Informatics, and applied **reinforcement learning** to solve industrial control problems at Microsoft Bonsai. 
 
-I think **AI is the key technology of this century**, and while I think its super promising, unless we're thoughtful and deliberate about deploying it, we may face some considerable, and potentially existential, consequences. 
+I am currently working as a **Product Manager** at **Microsoft Fabric** - Microsoft's new data platform. There I build Data Copilots. 
 
-I particularly interested in how AI can be applied to solve problems in the real world. I think to apply AI in a thoughtful and deliberate way, we need more people who can work and communicate across domains. To facilitate this I tried to get a broad education, and have degrees in:
+I think **AI is the key technology of this century**, and while I think its super promising, unless we're thoughtful and deliberate about deploying it I think we may face some considerable, and potentially existential, consequences. 
+
+I think to apply AI in a thoughtful and deliberate way, we need more people who can work and communicate across domains. I tried to get a broad education, and have degrees in:
 - MS Technology & Policy - MIT
 - MS Computer Science - MIT 
 - MEng Advanced Manufacturing & Design - MIT
@@ -51,7 +53,7 @@ Microsoft decided to discontinue this product, but I continue to believe in the 
 
 <img src="/assets/images/citrine.png" alt="Fabric" width="360">
 
-At **[Citrine Informatics](https://citrine.io/)** I helped the top materials companies in the world do better analytics on their materials data. I started as **data scientist** and eventually worked as a **tech lead**, where I got to work with a team of data scientists and engineers. 
+At **[Citrine Informatics](https://citrine.io/)** I helped top materials companies create better materials using machine learning. I started as **data scientist** and eventually worked as a **tech lead**, where I got to work with a team of data scientists and engineers. 
 
 We used **bayesian optimization** *(in essence; find the most valuable experiments to run every iteration)* with some special materials featurizations. Using this technique we helped various companies achieve breakthrough insights in different systems, ranging from glass, to metals, to polymers. 
 
