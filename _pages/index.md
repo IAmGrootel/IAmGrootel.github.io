@@ -25,15 +25,16 @@ I am a global citizen! I grew up moving every 2-4 years, and have lived in the N
 
 # What I Do
 
-<img src="/assets/images/fabric-logo.png" alt="Fabric" width="60">
+<img src="/assets/images/fabric-logo.png" alt="Fabric" width="90">
 
 At **[Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric)** I am a **Product Manager** on the founding team of the **copilots initiative**. Here we try to imbue the new flagship data platform with AI capabilities. Imagine writing things like "*please analyze this dataset for anomalies*" and actually getting timesaving and trustworthy results. 
 
 You can see some of the initial features we will ship [here](https://youtu.be/jt6oq2CjaiA?t=338). 
 
 <hr>
+
 # What I did
-### Reinforcement Learning for Industry
+### Reinforcement Learning for Industrial Control
 2021-2023
 <!-- <p font-size=1px><i><font color = 'grey' > Tags: Reinforcement Learning, Simulations</font></i></p> -->
 
@@ -47,6 +48,7 @@ The basic approach was: Step 1: build a simulation. Step 2: train an algorithm t
 I first did this work as a **client-facing AI Engineer**, and later I switched over to **Product Management**, where I in charge of the **core AI algorithms and capabilities**. The features were shipped were learning directly from data ("Offline Reinforcement Learning"), increasing robustness in the face of imperfect simulations, and accelerating training speeds. 
 
 Microsoft decided to discontinue this product, but I continue to believe in the approach.
+
 
 ### Active Learning and Materials Informatics
 2019-2021
@@ -67,10 +69,12 @@ And I was a co-inventor on a patent:
 [ Product design and materials development integration using a machine learning generated capability map ](https://patents.google.com/patent/US11004037B1/en)
 
 
-### Automatic Text Extraction from Materials and Manufacturing Journal Articles
+
+
+### Automatic Information Extraction from Materials Science Journal Articles
 2016-2019
 
-<img src="/assets/images/MIT.png" alt="Fabric" width="260">
+<img src="/assets/images/MIT.png" alt="Fabric" width="230">
 
 In the [Olivetti Group](https://olivetti.mit.edu/) at **MIT** we built systems to **automatically extract information contained in materials science papers** (the input ingredients, the process, the resulting properties). Once you have that dataset, there is a lot you can do like creating comprehensive maps of what has/hasn't been tried to give other researchers new ideas, or automatically generate new synthesis paths for materials. 
 

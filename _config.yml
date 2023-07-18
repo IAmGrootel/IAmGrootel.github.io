@@ -57,7 +57,8 @@ plugins:
 
 author:
   name   : "Alex van Grootel"
-  avatar : "/assets/images/bio-photo.jpg"
+  # avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/self.jpg"
   bio    : "AI, product"
   location: San Francisco, USA
   # email: alex.van.grootel _at_ gmail _dot_ com
