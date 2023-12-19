@@ -3,9 +3,9 @@ permalink: /index
 title: ""
 ---
 
-# Hello! I'm Alex. 
+# Hello! I'm Alex
 
-I am an experienced **data scientist** and **AI product manager** .
+I am a **product manager** and experienced in **AI and data science**.
 
 I created **NLP** pipelines on materials data when I was at MIT, used **active learning** to design better materials at Citrine Informatics, and applied **reinforcement learning** to solve industrial control problems at Microsoft Bonsai. 
 
@@ -19,7 +19,7 @@ I think to apply AI in a thoughtful and deliberate way, we need more people who 
 - MEng Advanced Manufacturing & Design - MIT
 - BEng Mechanical Engineering - University of Edinburgh
 
-I am a global citizen! I grew up moving every 2-4 years, and have lived in the Netherlands 🇳🇱, Singapore 🇸🇬, Indonesia 🇮🇩, the Bahamas 🇧🇸, France 🇫🇷, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, and the USA 🇺🇸. Always looking to connect with fellow Third Culture Kids! Reach out if you happen to stumble across me. 
+I am a global citizen! I grew up moving every 2-4 years, and have lived in the Netherlands 🇳🇱, Singapore 🇸🇬, Indonesia 🇮🇩, the Bahamas 🇧🇸, France 🇫🇷, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, and the USA 🇺🇸. Always looking to connect with fellow **Third Culture Kids**! Reach out if you happen to stumble across me. 
 
 <hr>
 

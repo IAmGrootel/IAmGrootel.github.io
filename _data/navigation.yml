@@ -3,6 +3,6 @@ main:
     url: /index
   # - title: "Previous Projects"
   #   url: /projects
-  - title: "Writings"
-    url: /writings
+  - title: "Notes"
+    url: /Notes
   
