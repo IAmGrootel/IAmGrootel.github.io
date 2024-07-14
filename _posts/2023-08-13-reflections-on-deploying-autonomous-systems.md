@@ -18,29 +18,29 @@ Now the tech we were working with was very different. We were working with simul
 
 Below is an assortment of my reflections of what it takes to try and automate some important industrial process. Some of it will be applicable to any new project implementation at a large org, and some of it will be more relevant to implementing autonomous agents specifically. 
 
-## Select a sufficiently impactful problem
+## Select a sufficiently impactful problem; you will face challenges and people need to care about the problem to get those resolved
 You need something that is important enough for your project to get traction and for people to put resources up and you need to be able to estimate the impact in the language that the decision makers understand. The upside potential should scale with the investment required to get it off the ground. If you can scope, implement, test, and deploy something in 2 weeks - the impact can be lower. But for many physical systems, a more realistic timescale is going to be on the order of 6-24 months. 
 
 The cost-benefit trade-off off success cannot be close. You will face obstacles, and scope changes, and many setbacks because automating things, especially things in the physical world, is very difficult, and it won't go according to plan. It needs to be unequivocally clear that even if you only solve a part of the problem, that it would be impactful enough that the decision makers will want to enthusiastically talk to their bosses and their bosses' bosses about the win. Without this, you will never get enough leeway, and traction when the plan goes awry (and at some point it will).
 
 If you were to create an AI agent that replaces X task, would that be a big deal? How big a deal? You need to find a way to estimate this, and you need to frame it in the right way. The decision makers and funders of the initiative need to be  convinced that if your system works, it would be impactful. Learn to communicate in their language.  The story needs to be simple enough such that they can convince their own people without you in the room. At least on the problems we were working on, the way the decision people were thinking was in terms of increase in revenue, reduction in time to market, reduction in cost, improvement in margin, etc. 
 
-**Make sure the problem is the right application of the tech**
+## The people making the deal might not know the tech well enough to know whether its a fit. Make it easy to understand what problems are a good fit.
 Your technology is not going to be able to do everything. In my experience, these AI systems will be very new for many people and they will have the wrong mental model in subtle but important ways. And similarly, I think that many engineers and builders of this technology underestimate how hard it is to select the right problems, or how different a "real" problem can be compared to a. People have been trying to automate things through many revolutions of technology by many well-meaning and intelligent people. The problems you are left with are the problems that have previously been impossible to automate. Set aside your hubris. 
 
 When working with powerful and flexible (and therefore open-ended technology, the sales team will make contact with a new group who might have heard some new things about your technology, and together they will try to figure out what the scope of the implementation of your technology should be. This is a very difficult problem and you should throw some tech people at this to help establish some frameworks to make this easier, and to ensure that the technology is solving the actual problems out there. Understanding a company's processes and problems by itself is hard. Then in addition you need to know whether your solution will actually solve those problems. For us that involved making judgement calls on whether we believed we could simulate the process, and whether the scope of the action and state space would be sufficient to make a meaningful improvement.
 
 Try to make the problem of finding the right problem as easy as possible. You should try to articulate what information you need to collect from potential customers, and you should try to write down a decision tree of what attributes for a bad, average, good, and great application of your technology. Work with your sales team to create this decision tree, and see if the thing you are building actually aligns with what the customers you're talking to want.
 
-## Understand the objective
+## Understand the objective, and then expect you got it wrong
 What are you optimizing for?** People are bad at articulating what they actually want. *"I want to improve efficiency while maintaining quality?"* Ok, but what does that actually mean? Your goal should be to try and get to a sufficient understanding so that you can math this. Can you write down the objective function as an actual mathematical equation where you can plug in the variables and calculate the current performance?
 
 One helpful tip, once you've gotten this function you should try to test it out with the various stakeholders. Try providing some conflicting examples that by the definition of the function should be equivalent, but you suspect aren't. This tends to be a great way to get more conversation going. "Oh, no you're actually not suppose to ramp up this variable so quickly" or "you cannot have this variable higher than that variable. Thats a safety risk."
 
 Simply asking customers what they want is never going to cut it, but putting some examples in front of them tends to bring out a lot of additional constraints. 
 
-**Identify a reasonable baseline**
-What is your north-star? An increase in total widgets produced? A reduction in re-work? An improvement in total sales? An increase in total throughput? What is the current level this is at? How reliable is that measurement? Do people agree that this is the right measurement? And how is this currently done? If its an important enough problem (and it *should* be), then they will have tried to solve it in the past. What went wrong? What can you learn from that?
+## Identify a reasonable baseline
+This helps to get clarity on the objective. What is your north-star? An increase in total widgets produced? A reduction in re-work? An improvement in total sales? An increase in total throughput? What is the current level this is at? How reliable is that measurement? Do people agree that this is the right measurement? And how is this currently done? If its an important enough problem (and it *should* be), then they will have tried to solve it in the past. What went wrong? What can you learn from that?
 
 You should try to have a conversation about how you will test this. What is a fair test to compare your technology against the current baseline? At some point you will come into the counterfactual problem. *"yeah you got good results, but can you show that it was better than if we didn't make this decision? What if this was just a particularly easy batch?"*. That can be a hard problem to solve. In some cases you can throw statistics at the problem, but if there aren't enough samples in the data (e.g. you only do X task once per week, and you need >100 samples to demonstrate with sufficient statistical power that its indeed better), then statistics won't cut it.
 
@@ -50,12 +50,12 @@ Are you running the comparison in the real world? Or in a simulation? The benefi
 
 You should come to an agreement on the benchmark and the goal of what constitutes "beating the benchmark" before you conduct the tests and ideally before you begin on the solution. People always want to get more and better performance, and they will shift the goalposts, even if they don't intend to. 
 
-## Define the states and actions
+## Get specific. Define the states and actions at every step
 Take an example problem end-to-end, taking note of the states (what information should be available to the agent at each stage) and actions (what decisions can the agent take?).
 
 Are all of these states and actions actually available to the agent? Often the information and decisions might be stored or take place in multiple systems. Humans might be able to access all these things, but can your bot? Does your AI have API access to each of these systems? If not, there might be a lot of implementation work to be done to even start your prototype. Don't underestimate this work. Surprisingly often we ran into problems where getting one system to connect to another system was a few weeks of work.
 
-## You need to instill trust in the AI
+## You need to instill trust in the AI. Don't underestimate this.
 Think of this as a journey with stage-gates you need to bring them on. You might believe in your vision, but others will not at first. Don't think you can show some statistics in a slide deck and expect them to be immediately swayed.  First you need to get them interested enough to commit resources for a prototype / trial, then you need to convince them to deploy the prototype/trial, then you need to convince them that the prototype/trial was successful and that they should deploy this in production. The bar for each of these stages is different and the kind of data the stakeholders expect will be different.
 
 ## People want to feel like they are in control 
