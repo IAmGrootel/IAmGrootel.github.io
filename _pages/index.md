@@ -11,7 +11,7 @@ I created **NLP** pipelines on materials data when I was at MIT, used **active l
 
 I am currently working as a **Product Manager** at **Microsoft Fabric** - Microsoft's new data platform. There I build Data Copilots. 
 
-I think **AI is the key technology of this century**, and while I think its super promising, unless we're thoughtful and deliberate about deploying it I think we may face some considerable, and potentially existential, consequences. 
+I think **AI is the key technology of this century**, and while I think the power of AI is incredibly promising, I also think that unless we're thoughtful and deliberate about deploying it, we may face some considerable, and potentially catastrophic, consequences. 
 
 I think to apply AI in a thoughtful and deliberate way, we need more people who can work and communicate across domains. I tried to get a broad education, and have degrees in:
 - MS Technology & Policy - MIT
@@ -19,7 +19,7 @@ I think to apply AI in a thoughtful and deliberate way, we need more people who 
 - MEng Advanced Manufacturing & Design - MIT
 - BEng Mechanical Engineering - University of Edinburgh
 
-I am a global citizen! I grew up moving every 2-4 years, and have lived in the Netherlands 🇳🇱, Singapore 🇸🇬, Indonesia 🇮🇩, the Bahamas 🇧🇸, France 🇫🇷, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, and the USA 🇺🇸. Always looking to connect with fellow **Third Culture Kids**! Reach out if you happen to stumble across me. 
+I am a global citizen - I grew up moving every 2-4 years, and have lived in the Netherlands 🇳🇱, Singapore 🇸🇬, Indonesia 🇮🇩, the Bahamas 🇧🇸, France 🇫🇷, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, and the USA 🇺🇸. Always looking to connect with fellow **Third Culture Kids**! Reach out if you happen to stumble across me. 
 
 <hr>
 
