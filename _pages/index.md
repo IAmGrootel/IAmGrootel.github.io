@@ -17,7 +17,6 @@ I think to apply AI in a thoughtful and deliberate way, we need more people who 
 - BEng Mechanical Engineering - University of Edinburgh
 
 I am a global citizen - I grew up moving every 2-4 years, and have lived in the Netherlands 🇳🇱, Singapore 🇸🇬, Indonesia 🇮🇩, the Bahamas 🇧🇸, France 🇫🇷, Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, and the USA 🇺🇸. Always looking to connect with fellow **Third Culture Kids**! Reach out if you happen to stumble across me. 
-alex (dot) van (dot) grootel @gmail.com
 <hr>
 
 # What I Do
