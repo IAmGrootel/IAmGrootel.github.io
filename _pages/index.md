@@ -4,6 +4,7 @@ title: ""
 ---
 
 # Hello! I'm Alex
+See what I am currently doing [here](https://www.mattermadelabs.com/). 
 
 I am a **product manager** and experienced in **AI and data science**.
 
@@ -24,16 +25,18 @@ I am a global citizen - I grew up moving every 2-4 years, and have lived in the 
 <hr>
 
 # What I Do
+I am using my skills to push forward materials science. Come talk to me at [Matter Made Labs](https://www.mattermadelabs.com/) if you are interested in collaborating with me or learning more.
 
+
+<hr>
+
+# What I did
+### Copilots for data science
 <img src="/assets/images/fabric-logo.png" alt="Fabric" width="90">
 
 At **[Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric)** I am a **Product Manager** on the founding team of the **copilots initiative**. Here we try to imbue the new flagship data platform with AI capabilities. Imagine writing things like "*please analyze this dataset for anomalies*" and actually getting timesaving and trustworthy results. 
 
 You can see some of the initial features we will ship [here](https://youtu.be/jt6oq2CjaiA?t=338). 
-
-<hr>
-
-# What I did
 ### Reinforcement Learning for Industrial Control
 2021-2023
 <!-- <p font-size=1px><i><font color = 'grey' > Tags: Reinforcement Learning, Simulations</font></i></p> -->
